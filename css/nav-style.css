@@ -4,7 +4,6 @@ nav {
 }
 
 .container-fluid {
-    background: #000;
     height: auto;
     margin-top: 50px;
 }
@@ -24,7 +23,7 @@ nav {
 
 .nav-item .nav-link {
     color: #e0dfdc;
-    font-size: 16px;
+    font-size: 19px;
     margin-left: 15px;
 }
 
@@ -36,48 +35,7 @@ nav {
     margin-left: 0px;
     border-radius: 3px;
     margin-top: -2px;
-    border: 2px solid #114d96;
+    border: 2px solid #043c80;
     width: 100px;
     text-align: center;
 }
-
-.mission-msg {
-    background-color: gray;
-    height: auto;
-    width: 50%;
-    position: absolute;
-    right: 0%;
-    color: white;
-    margin-right: 5%;
-
-}
-
-@media screen and (max-width: 768px) {
-    .container-fluid .collapse {
-        position: relative;
-    }
-
-    .nav-item .btn-signup {
-        border: none;
-        width: auto;
-        left: 0%;
-        text-align: left;
-        margin-left: 15px;
-    }
-
-    .nav-item .btn-login {
-        margin-left: 15px;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 950px){
-    .container-fluid .collapse {
-        right: 0%;
-        top: 100%;
-        position: absolute;
-    }
-
-    header {
-        background: linear-gradient(90deg, #0e315b 20%, #69a0bc);
-    }
- }

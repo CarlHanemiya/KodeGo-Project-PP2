@@ -1,0 +1,109 @@
+.samm-free-trial {
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.main-container .samm-feature-plan {
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.samm-feature-plan .sfp-col {
+    height: 500px;
+    margin-top: 20px;
+}
+
+.sfp-col p {
+    font-size: 12px;
+}
+
+.sfp-header {
+    width: 100%;
+    height: 25%;
+    background-color: #1d6f99;
+    border-radius: 5px 5px 0 0;
+    color: white;
+}
+
+.sfp-header h5 {
+    padding-top: 20px;
+}
+
+.sfp-feature {
+    height: 60%;
+    background-color: #dee1e3;
+}
+
+.sfp-footer {
+    height: 15%;
+    background-color: #dee1e3;
+    border-radius: 0  0 10px 10px;
+}
+
+.sfp-footer button {
+    background-color: #1d6f99;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    border-radius: 10px 5px 10px 0;
+}
+.sfp-footer p {
+    margin-top: 5px;
+    color: #1d6f99;
+}
+
+.samm-contact-us-special-pricing {
+    width: 100%;
+    height: auto;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.special-pricing-box {
+    margin: 40px auto;
+    height: auto;
+    width: 70%;
+    border: 1px solid #dee1e3;
+}
+
+.special-pricing-box-header {
+    height: 50px;
+    width: 100%;
+    background-color: #0e315b;
+}
+
+.special-pricing-box-header h2 {
+    color: white;
+    padding-top: 5px;
+}
+
+.special-pricing-box-main {
+    width: 100%;
+    height: auto;
+}
+
+.special-pricing-box-main img {
+    height: 60px;
+    width: 60px;
+    margin-top: 50px;
+}
+
+.special-pricing-box-main p {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.special-pricing-box-footer {
+    width: 100%;
+    height: auto;
+    background-color: #bdbfbe;
+}
+
+.special-pricing-box-footer button {
+    padding: 10px 20px;
+    margin: 10px 10px;
+}

@@ -1,0 +1,1 @@
+every client has a different URL - to provide their request, changes, owned company\link(clientname) etc - without affecting the other client UI. 
