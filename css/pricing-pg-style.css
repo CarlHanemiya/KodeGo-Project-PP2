@@ -51,6 +51,7 @@
     color: white;
     border-radius: 10px 5px 10px 0;
 }
+
 .sfp-footer p {
     margin-top: 5px;
     color: #1d6f99;
@@ -106,4 +107,15 @@
 .special-pricing-box-footer button {
     padding: 10px 20px;
     margin: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1d6f99;
+    color: white;
+}
+
+.special-pricing-box-footer button a {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
 }

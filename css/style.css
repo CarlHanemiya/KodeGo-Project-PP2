@@ -14,6 +14,7 @@ header {
     background: linear-gradient(90deg, #0e315b 28%, #69a0bc);
     width: 100%;
     height: 400px;
+    z-index: 1;
 }
 
 .mission-msg {
@@ -24,7 +25,8 @@ header {
     color: white;
     margin-right: 5%;
     margin-top: 20px;
-    
+    z-index: 1;
+    overflow: hidden;
 }
 
 .mission-msg h2 {
@@ -43,6 +45,7 @@ main {
     width: 100%;
     height: auto;
     overflow: hidden;
+    z-index: 11;
 }
 
 .main-container {
