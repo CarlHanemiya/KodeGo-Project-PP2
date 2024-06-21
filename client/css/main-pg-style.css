@@ -1,0 +1,50 @@
+.dash-sum-container {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-sum-container .dash-wrapper {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    border-radius: 6px;
+    width: 23%;
+    height: 70px;
+    background-color: white;
+}
+
+.dash-sum-container .dash-wrapper .img-wrapper {
+    position: absolute;
+    background-color: #043c80;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.dash-sum-container .dash-wrapper .text-wrapper {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.dash-recap-report {
+    width: 95%;
+    height: 70%;
+    margin-top: 150px;
+    margin-left: calc(2% + 10px);
+    background-color: white;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-recap-report h4 {
+   padding: 10px;
+}

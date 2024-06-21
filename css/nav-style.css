@@ -17,6 +17,10 @@ nav {
     width: 180px;
 }
 
+.nav-brand-wrapper h2, p {
+    color: white;
+}
+
 .brand-img img {
     height: 50px;
     width: 50px;
@@ -37,7 +41,8 @@ nav {
     width: 50px;
 }
 
-.container-fluid {
+
+.container-md {
     height: auto;
     margin-top: 50px;
 }
@@ -72,4 +77,12 @@ nav {
     border: 2px solid #043c80;
     width: 100px;
     text-align: center;
+}
+
+.offcanva-header-bg {
+    background-color: #2d2e2e;
+}
+
+.offcanva-header-bg h5, button {
+    color: white;
 }

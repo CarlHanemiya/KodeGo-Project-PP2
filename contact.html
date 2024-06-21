@@ -13,39 +13,45 @@
     </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md">
-            <div class="container-fluid"> 
-              <a class="navbar-brand brand-x" href="index.html">
-                <img src="img/logo-2.png" class="brand-img">
-                <div class="nav-brand-wrapper">
-                  <h2>GateHub</h2> 
-                  <p>Attendance Monitoring Software</p>
-                </div>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" onclick="myFunction()">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 400px;">
-                  <li class="nav-item">
-                    <a class="nav-link text-shadow-5" aria-current="page" href="index.html">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-shadow-5" href="pricing.html">PRICING</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-shadow-5" href="feature.html">FEATURES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link btn-login text-shadow-5" href="login.html">Login</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link btn-signup text-shadow-5" href="signup.html">Sign Up</a>
-                  </li>
-                </ul>
-              </div>
+      <nav class="navbar navbar-expand-md">
+        <div class="container-md"> 
+          <a class="navbar-brand brand-x" href="index.html">
+            <img src="img/logo-2.png" class="brand-img">
+            <div class="nav-brand-wrapper">
+              <h2>GateHub</h2> 
+              <p>Attendance Monitoring Software</p>
             </div>
-      </nav>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header offcanva-header-bg ">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">WD101-A1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">PRICING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="feature.html">FEATURES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-login" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-signup" href="signup.html">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
       <!-- <div class="mission-msg">
         <h2>CONTACT TITLE</h2>
         <p class="text-shadow-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae, rem error nemo commodi est reiciendis asperiores, sapiente iste aspernatur, consequatur iusto excepturi esse eligendi mollitia perferendis atque perspiciatis voluptatem!</p>
@@ -62,11 +68,11 @@
             <form class="book-now-form" action="#">
                 <label for="first-name">Name: </label>
                     <div class="input-group">
-                        <span class="input-group-text">First Name</span>
+                        <span class="input-group-text" style="background-color: white; margin-left: -10px;">First Name</span>
                         <input type="text" aria-label="First name" class="form-control" id="first-name" name="first-name" required>
                     </div>
                         <div class="input-group">    
-                        <span class="input-group-text">Last Name</span>
+                        <span class="input-group-text" style="background-color: white; margin-left: -10px;">Last Name</span>
                         <input type="text" aria-label="Last name" class="form-control" id="last-name" name="last-name" required>
                     </div>
                 <label for="email">Email: </label>

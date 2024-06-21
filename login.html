@@ -13,39 +13,45 @@
     </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md">
-            <div class="container-fluid"> 
-              <a class="navbar-brand brand-x" href="index.html">
-                <img src="img/logo-2.png" class="brand-img">
-                <div class="nav-brand-wrapper">
-                  <h2>GateHub</h2> 
-                  <p>Attendance Monitoring Software</p>
-                </div>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" onclick="myFunction()">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 400px;">
-                  <li class="nav-item">
-                    <a class="nav-link text-shadow-5" aria-current="page" href="index.html">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-shadow-5" href="pricing.html">PRICING</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-shadow-5" href="feature.html">FEATURES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link btn-login text-shadow-5" href="login.html">Login</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link btn-signup text-shadow-5" href="signup.html">Sign Up</a>
-                  </li>
-                </ul>
-              </div>
+      <nav class="navbar navbar-expand-md">
+        <div class="container-md"> 
+          <a class="navbar-brand brand-x" href="index.html">
+            <img src="img/logo-2.png" class="brand-img">
+            <div class="nav-brand-wrapper">
+              <h2>GateHub</h2> 
+              <p>Attendance Monitoring Software</p>
             </div>
-      </nav>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header offcanva-header-bg ">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">WD101-A1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">PRICING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="feature.html">FEATURES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active btn-login" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-signup" href="signup.html">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
       <!-- <div class="mission-msg">
         <h2>CONTACT TITLE</h2>
         <p class="text-shadow-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae, rem error nemo commodi est reiciendis asperiores, sapiente iste aspernatur, consequatur iusto excepturi esse eligendi mollitia perferendis atque perspiciatis voluptatem!</p>
@@ -59,21 +65,22 @@
           <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-            <form class="book-now-form" action="#">
+            <form class="book-now-form" id="login-form">
                 <label for="email">Username: </label>
                 <div class="form-element-wrapper">
                     <div class="form-div-100">
                         <input type="email" id="email" name="email" required>
                     </div>
                 </div>
-                <label for="phone-number">Password: </label>
+                <label for="password">Password: </label>
                 <div class="form-element-wrapper">
                     <div class="form-div-100">
-                        <input type="number" id="phone-number" name="phone-number" required>
+                        <input type="text" id="password" name="password" required>
+                        <p id="login-message"></p>
                     </div>
                 </div>  
-                <div class="form-element-wrapper col-md-12">
-                    <input class="link-btn" type="submit" value="Login">
+                <div class="form-element-wrapper">
+                    <input class="link-btn" type="submit" id="login-btn" value="Login">
                 </div>
             </form>
             </div>
@@ -130,5 +137,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="js/nav-script.js"></script>
+    <script src="js/login-pg-script.js"></script>
   </body>
 </html>

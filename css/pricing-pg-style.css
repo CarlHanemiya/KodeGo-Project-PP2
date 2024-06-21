@@ -38,6 +38,10 @@
     background-color: #dee1e3;
 }
 
+.sfp-feature p {
+    color: black;
+}
+
 .sfp-footer {
     height: 15%;
     background-color: #dee1e3;
@@ -91,11 +95,13 @@
     height: 60px;
     width: 60px;
     margin-top: 50px;
+    background-color: gray;
 }
 
 .special-pricing-box-main p {
     margin-top: 25px;
     font-size: 15px;
+    color: black;
 }
 
 .special-pricing-box-footer {
